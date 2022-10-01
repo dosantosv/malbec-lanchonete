@@ -14,7 +14,7 @@
 
 <body>
   <main class="container">
-    <div class="div-logo d-flex justify-content-center">
+    <div class="div-logo">
       <img class="logo" src="assets/images/logo.png" alt="Logo Malbec">
     </div>
     <div class="row d-none d-lg-flex">
@@ -48,7 +48,9 @@
       </div>
       <div class="col-lg-4">
         <div class="card card--product">
-          <img src="assets/images/lanche3.png" class="card-img-top product--image" alt="Sunset over the Sea">
+          <div class="card-image">
+            <img src="assets/images/lanche3.png" class="card-img-top product--image" alt="Sunset over the Sea">
+          </div>
           <div class="card-body">
             <h5 class="card-title product--name">BMW Serie 2</h5>
             <p class="card-text product--description">
@@ -64,9 +66,26 @@
       <div class="col-lg-12">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner text-center">
+            <div class="carousel-item">
+              <div class="card card--product d-block w-100">
+                <div class="card-image">
+                  <img src="assets/images/lanche3.png" class="card-img-top product--image" alt="Sunset over the Sea">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title product--name">BMW Serie 2</h5>
+                  <p class="card-text product--description">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Adicionar ao carrinho</a>
+                </div>
+              </div>
+            </div>
             <div class="carousel-item active">
-              <div class="card d-block w-100">
-                <img src="assets/images/lanche3.png" class="card-img-top product--image" alt="Sunset over the Sea">
+              <div class="card card--product d-block w-100">
+                <div class="card-image">
+                  <img src="assets/images/lanche3.png" class="card-img-top product--image" alt="Sunset over the Sea">
+                </div>
                 <div class="card-body">
                   <h5 class="card-title product--name">BMW Serie 2</h5>
                   <p class="card-text product--description">
@@ -78,21 +97,10 @@
               </div>
             </div>
             <div class="carousel-item">
-              <div class="card d-block w-100">
-                <img src="assets/images/lanche3.png" class="card-img-top product--image" alt="Sunset over the Sea">
-                <div class="card-body">
-                  <h5 class="card-title product--name">BMW Serie 2</h5>
-                  <p class="card-text product--description">
-                    Some quick example text to build on the card title and make up the bulk
-                    of the card's content.
-                  </p>
-                  <a href="#!" class="btn btn-primary">Adicionar ao carrinho</a>
+              <div class="card card--product d-block w-100">
+                <div class="card-image">
+                  <img src="assets/images/lanche3.png" class="card-img-top product--image" alt="Sunset over the Sea">
                 </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card d-block w-100">
-                <img src="assets/images/lanche3.png" class="card-img-top product--image" alt="Sunset over the Sea">
                 <div class="card-body">
                   <h5 class="card-title product--name">BMW Serie 2</h5>
                   <p class="card-text product--description">
